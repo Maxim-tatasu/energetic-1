@@ -1,20 +1,20 @@
 <template>
 <div>
-  <game/>
+  <MedForm/>
 </div>
 </template>
 
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
-import game from './components/game.vue'
-//import MedForm from './components/MedForm.vue'
+//import game from './components/game.vue'
+import MedForm from './components/MedForm.vue'
 
 export default {
   name: 'App',
   components: {
     //HelloWorld,
-   game,
-   // MedForm
+   //game,
+   MedForm
   }
 }
 </script>
