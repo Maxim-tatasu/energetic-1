@@ -1,0 +1,20 @@
+<header>
+    <h2>Задачи</h2>
+    <ul>
+        <li>
+            <button (click)='showform1()' ><h1>+</h1></button>
+        </li>
+    </ul>
+</header>
+
+<div class="add_task" *ngIf="showform" >
+    <h2>Новая задача</h2>
+    <form [formGroup]="myForm" >
+        <input type='text' formControlName="taskname" placeholder="Название задачи" required >
+        <select formControlName="category" >
+            <option>Категория</option>
+        </select>
+        <input type='button' value="Отмена" id='remote' (click)='hideform1()' >
+        <input type='button' value="Ok" (click)='addtask()' >
+    </form>
+</div>

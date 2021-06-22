@@ -1,0 +1,24 @@
+{
+"mas":[{
+    "thems":"Семья",
+    "name":"задача1",
+    "check":false
+},
+
+{
+    "thems":"Работа",
+    "name":"задача2",
+    "check":false
+},
+{
+    "thems":"Прочее",
+    "name":"задача3",
+    "check":false
+},
+{
+    "thems":"Работа",
+    "name":"задача2",
+    "check":false
+}
+]
+}
